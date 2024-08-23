@@ -11,3 +11,4 @@
 # 忽略特定的文件或目录
 /tests/ignored_tests.rs
 /configs/*.toml
+.DS_Store
