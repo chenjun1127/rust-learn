@@ -5,5 +5,22 @@ edition = "2024"
 
 [dependencies]
 
+[[bin]]
+name = "closure"
+path = "src/bin/closure/closure.rs"
 
+[[bin]]
+name = "capture"
+path = "src/bin/closure/capture.rs"
 
+[[bin]]
+name = "non_copy_type"
+path = "src/bin/closure/non_copy_type.rs"
+
+[[bin]]
+name = "function"
+path = "src/bin/closure/function.rs"
+
+[[bin]]
+name = "higher_function"
+path = "src/bin/closure/higher_function.rs"
