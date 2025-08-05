@@ -28,3 +28,17 @@ path = "src/bin/closure/function.rs"
 [[bin]]
 name = "higher_function"
 path = "src/bin/closure/higher_function.rs"
+
+[[bin]]
+name = "spawn_base"
+path = "src/bin/spawn/base.rs"
+
+[[bin]]
+name = "spawn_move"
+path = "src/bin/spawn/move.rs"
+
+[[bin]]
+name = "spawn_channel"
+path = "src/bin/spawn/channel.rs"
+
+
