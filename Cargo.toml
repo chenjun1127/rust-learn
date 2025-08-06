@@ -42,3 +42,8 @@ name = "spawn_channel"
 path = "src/bin/spawn/channel.rs"
 
 
+[[bin]]
+name = "spawn_lock"
+path = "src/bin/spawn/lock.rs"
+
+
