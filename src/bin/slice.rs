@@ -6,6 +6,8 @@ fn main() {
     let bytes = s.as_bytes();
     println!("{:?}", bytes);
     println!("{}", first_word(&s));
+    let s = String::from_utf8(bytes.to_vec()).unwrap();
+    println!("{}", s);
 }
 fn first_word(s: &String) -> &str {
     let bytes = s.as_bytes();
